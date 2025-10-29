@@ -1,0 +1,201 @@
+index.html
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>東大寺法華堂 不空羂索観音像</title>
+    <!-- Tailwind CSS CDNをロードするのねん -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap');
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            background-color: #F8F5F1; /* 落ち着いた背景色なのねん */
+            color: #333;
+        }
+        /* カスタムカラーパレットなのねん */
+        .color-primary { color: #8B5CF6; } /* 紫系のアクセントカラーなのねん */
+        .color-accent { color: #CC0000; } /* 華やかな赤色なのねん */
+        .bg-card { background-color: #FFFFFF; }
+        .shadow-temple { box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); }
+
+        /* セクションの区切り線に装飾を加えるのねん */
+        .styled-hr {
+            border: none;
+            height: 3px;
+            background: linear-gradient(to right, #F8F5F1, #CC0000, #F8F5F1);
+            margin: 4rem 0;
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body class="p-4 md:p-10">
+
+    <div class="max-w-4xl mx-auto">
+        <!-- ヘッダー部分なのねん -->
+        <header class="text-center mb-6 p-6 bg-card rounded-xl shadow-temple border-b-4 border-yellow-600/50">
+            <h1 class="text-4xl md:text-5xl font-extrabold color-primary tracking-tight mb-2">
+                🌟 東大寺法華堂 不空羂索観音像 🌟
+            </h1>
+            <h2 class="text-xl md:text-2xl font-semibold text-gray-700">
+                ✨ 天平の世を照らす、聖武天皇の「鎮護国家」の祈りなのねん ✨
+            </h2>
+        </header>
+        
+        <!-- 挿入された画像セクションなのねん -->
+        <div class="mb-12 p-4 bg-card rounded-xl shadow-temple border-t-2 border-b-2 border-gray-200">
+            <img 
+                src="uploaded:IMG_3256.jpeg-766a26ee-be81-40ae-83a6-0b236cb215cb" 
+                alt="東大寺法華堂 不空羂索観音像の画像" 
+                class="w-full h-auto rounded-lg shadow-xl mx-auto max-w-lg"
+                onerror="this.onerror=null;this.src='https://placehold.co/800x600/AA0000/FFFFFF?text=画像が表示できませんなのねん'; this.style.display='block'; this.style.maxWidth='100%'; this.style.height='auto';"
+            />
+            <p class="text-center text-sm text-gray-500 mt-2">東大寺法華堂（三月堂）本尊 不空羂索観音像</p>
+        </div>
+
+        <main class="space-y-12">
+            <!-- 1. 不空羂索観音像とは のセクションなのねん -->
+            <section class="bg-card p-6 md:p-8 rounded-xl shadow-temple">
+                <h3 class="text-2xl md:text-3xl font-bold mb-4 border-l-4 border-yellow-500 pl-3">
+                    １．不空羂索観音像とは
+                </h3>
+                <p class="text-lg mb-4 color-accent font-semibold">
+                    ―― 8本の腕と第三の眼を持つ、慈悲深き観音様なのねん ――
+                </p>
+                <p class="text-gray-700 mb-6">
+                    東大寺法華堂（三月堂）の<strong class="text-purple-700">本尊</strong>として、1200年以上の時を超えて鎮座する壮麗な仏像なのねん。
+                </p>
+
+                <ul class="space-y-3 list-disc list-inside ml-4 text-gray-600">
+                    <li>
+                        <strong class="text-purple-700">造形美の極致：</strong> 高さ3メートル62センチなのねん。<strong class="text-purple-700">脱活乾漆造</strong>という高度な技法で造られ、その重厚感と躍動感は見る者を圧倒するのねん。
+                    </li>
+                    <li>
+                        <strong class="text-purple-700">特徴：</strong> 額には<strong class="text-purple-700">第三の眼</strong>（白毫）を持ち、頭上には華麗な<strong class="text-purple-700">宝冠</strong>を戴くのねん。<strong class="text-purple-700">八臂（はっぴ）</strong>と呼ばれる8本の腕を持ち、衆生を救うための<strong class="text-purple-700">羂索（けんじゃく）</strong>など、様々な持物を携えているのねん。
+                    </li>
+                </ul>
+            </section>
+
+            <hr class="styled-hr">
+
+            <!-- 2. 建立の背景 のセクションなのねん -->
+            <section class="bg-card p-6 md:p-8 rounded-xl shadow-temple">
+                <h3 class="text-2xl md:text-3xl font-bold mb-4 border-l-4 border-yellow-500 pl-3">
+                    ２．建立の背景：不安の時代を乗り越えるために
+                </h3>
+                <p class="text-lg mb-4 color-accent font-semibold">
+                    ―― 疫病と飢饉、混沌とした奈良時代なのねん ――
+                </p>
+                <p class="text-gray-700 mb-6">
+                    像が造られた奈良時代（天平年間）は、決して平穏ではなかったのねん。
+                </p>
+
+                <ul class="space-y-3 list-disc list-inside ml-4 text-gray-600">
+                    <li>
+                        <strong class="text-purple-700">社会不安：</strong> 巨大な<strong class="text-purple-700">天然痘</strong>の流行が全国を襲い、多くの貴族や民衆の命が失われたのねん。飢饉や政争も絶えず、社会全体が深い<strong class="text-purple-700">絶望と混乱</strong>の中にあったのねん。
+                    </li>
+                    <li>
+                        <strong class="text-purple-700">聖武天皇の思想：</strong> 天皇は、仏教の力こそが国を安定させ、民を救う唯一の道と考え、<strong class="text-purple-700">「鎮護国家」</strong>の思想を深く信仰したのねん。
+                    </li>
+                </ul>
+            </section>
+
+            <hr class="styled-hr">
+
+            <!-- 3. 誰が建立させたのか のセクションなのねん -->
+            <section class="bg-card p-6 md:p-8 rounded-xl shadow-temple">
+                <h3 class="text-2xl md:text-3xl font-bold mb-4 border-l-4 border-yellow-500 pl-3">
+                    ３．誰が建立させたのか：国家プロジェクトの始動
+                </h3>
+                <p class="text-lg mb-4 color-accent font-semibold">
+                    ―― 天皇・皇后が捧げた、国を救うための「誓願」なのねん ――
+                </p>
+                <p class="text-gray-700 mb-6">
+                    この壮大な仏像は、時の権力者である<strong class="text-purple-700">聖武天皇</strong>の<strong class="text-purple-700">勅願</strong>（ちょくがん：天皇の命令による願い）によって造営されたのねん。
+                </p>
+
+                <ul class="space-y-3 list-disc list-inside ml-4 text-gray-600">
+                    <li>
+                        <strong class="text-purple-700">発願者：</strong> <strong class="text-purple-700">聖武天皇</strong>と、皇后である<strong class="text-purple-700">光明皇后</strong>なのねん。東大寺全体が、このお二人の深い信仰心と、国を思う強い願いの結晶なのねん。
+                    </li>
+                    <li>
+                        <strong class="text-purple-700">完成時期：</strong> <strong class="text-purple-700">天平勝宝4年（752年）</strong>の東大寺大仏開眼の時期に合わせて造立されたと考えられているのねん。
+                    </li>
+                </ul>
+            </section>
+
+            <hr class="styled-hr">
+
+            <!-- 4. なぜ建立する必要があったのか のセクションなのねん -->
+            <section class="bg-card p-6 md:p-8 rounded-xl shadow-temple">
+                <h3 class="text-2xl md:text-3xl font-bold mb-4 border-l-4 border-yellow-500 pl-3">
+                    ４．なぜ建立する必要があったのか：観音の力への期待
+                </h3>
+                <p class="text-lg mb-4 color-accent font-semibold">
+                    ―― すべての衆生を救済する、不空羂索の「誓い」なのねん ――
+                </p>
+                <p class="text-gray-700 mb-6">
+                    建立の最大の目的は、<strong class="text-purple-700">現世の苦難からの救済</strong>と<strong class="text-purple-700">国家の安泰</strong>だったのねん。
+                </p>
+
+                <!-- 目的のテーブルなのねん -->
+                <div class="overflow-x-auto">
+                    <table class="min-w-full divide-y divide-gray-200 border border-gray-200 rounded-lg">
+                        <thead class="bg-gray-50">
+                            <tr>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">目的</th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">詳細な願い</th>
+                            </tr>
+                        </thead>
+                        <tbody class="bg-white divide-y divide-gray-200">
+                            <tr>
+                                <td class="px-6 py-4 whitespace-nowrap font-medium text-gray-900">
+                                    **災厄の終息**
+                                </td>
+                                <td class="px-6 py-4 text-gray-600">
+                                    疫病や飢饉といった天変地異を鎮め、民の命と生活を守るのねん。
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="px-6 py-4 whitespace-nowrap font-medium text-gray-900">
+                                    **鎮護国家**
+                                </td>
+                                <td class="px-6 py-4 text-gray-600">
+                                    仏教の力によって国を安定させ、理想的な社会（仏国土）を実現するのねん。
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="px-6 py-4 whitespace-nowrap font-medium text-gray-900">
+                                    **普遍的な救済**
+                                </td>
+                                <td class="px-6 py-4 text-gray-600">
+                                    <strong class="text-purple-700">「不空羂索」</strong>とは、「空しい網ではない」という意味なのねん。観音様が持つ<strong class="text-purple-700">羂索（けんじゃく）</strong>（網）で、<strong class="text-purple-700">一人残らず</strong>すべての衆生を救い取ってくださるという強い願いが込められているのねん。
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <hr class="styled-hr">
+
+            <!-- 結びの部分なのねん -->
+            <section class="bg-card p-6 md:p-8 rounded-xl shadow-temple border-t-4 border-yellow-600/50">
+                <h3 class="text-2xl font-bold mb-4 flex items-center text-gray-800">
+                    <span class="mr-2">📜</span> 結び
+                </h3>
+                <p class="text-xl italic text-gray-700 leading-relaxed">
+                    不空羂索観音像は、単なる美術品ではないのねん。それは、古代日本の<strong class="text-purple-700">最高権力者</strong>が、社会の危機に直面し、<strong class="text-purple-700">国民の平和</strong>を切に願って捧げた、<strong class="text-purple-700">巨大な祈りのモニュメント</strong>なのねん。
+                </p>
+            </section>
+        </main>
+
+        <!-- フッターなのねん -->
+        <footer class="mt-12 text-center text-gray-500 text-sm p-4">
+            &copy; 2024 天平の歴史と祈り研究会なのねん
+        </footer>
+    </div>
+
+</body>
+</html>
